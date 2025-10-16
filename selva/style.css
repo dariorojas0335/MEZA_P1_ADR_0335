@@ -1,0 +1,29 @@
+body{
+	text-align: center;
+	background-color: #b0e892;
+}
+header{
+	background-color: #027c68;
+	font-family: Georgia, sans-serif;
+}
+nav a{
+	text-decoration: none;
+	cursor: pointer;
+}
+nav{
+	text-align: left;
+	background-color: #56C596;
+	width: 150px;
+	height: 100px;
+}
+p{
+	text-align: center;
+	width: 300px;
+}
+footer{
+	text-align: center;
+	background-color: #003333;
+	color: white;
+	height: 50px;
+}
+

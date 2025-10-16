@@ -1,0 +1,49 @@
+<!--Rojas Ángel Darío 5ºJ 0335  10/09/2025-->
+<!DOCTYPE html> <!--Determina que es un documento html-->
+<html lang="es"> <!--Determina que el lenguaje del documento es español-->
+<head>
+    <meta charset="UTF-8"> <!--Usa el set de caracteres que le permite visualizar los acentos y la letra ñ-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Permite que la página pueda ser visualizada en cualquier pantalla-->
+    <title>Sitio con Barra Vertical</title> <!--Nombre del sitio web, este sale en la pestaña del navegador-->
+    <link rel="stylesheet" href="styles.css"> </head> <!--Esta linea enlaza lo que es el documento html con una hoja de estilos css (el documento CSS no ha sido proporcionado)-->
+<body> <!--Cuerpo del documento html-->
+
+    <header>    <!--Encabezado-->
+        <h1>Mi Sitio Web</h1> 
+    </header>
+
+    <div class="container"> <!--Crea la clase "contenedor", en el cual tiene la barra de navegación de clase side-bar (barra lateral)-->
+        <nav class="sidebar">
+            <ul>
+                <li><a class="active" href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>    <!--En una lista desordenada se colocan los enlaces dentro de la barra de navegación lateral-->
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">  <!--Define la clase "contenido"-->
+            <section id="inicio"> <!--Divide el section de html en varios cachos: "inicio", "acerca", "servicios", "contacto"-->
+                <h2>Bienvenido a mi sitio</h2> <!--Título h2 (relevante)-->
+                <p>Este es el contenido de la sección de inicio.</p><!--Párrafo-->
+            </section>
+
+            <section id="acerca">
+                <h2>Acerca de nosotros</h2>
+                <p>Aquí encontrarás información sobre nuestro equipo y nuestra misión.</p>
+            </section>
+
+            <section id="servicios">
+                <h2>Nuestros servicios</h2>
+                <p>Conoce los servicios que ofrecemos a nuestros clientes.</p>
+            </section>
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p>Para más información, puedes contactarnos a través de este medio.</p>
+            </section>
+        </main><!--Termina la clase contenido-->
+    </div> <!--Termina la clase contenedor-->
+
+</body><!--Termina el cuerpo de la página-->
+</html><!--Fin del documento html-->
